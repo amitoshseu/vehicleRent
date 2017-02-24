@@ -1,0 +1,158 @@
+.blockAbout{
+    height: 300px;
+    width: 25%;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    float: left;
+    }
+
+.blockAboutFull{
+    height: auto;
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    margin: 0 auto;
+
+    }
+
+ .testimonial{
+    height: 300px;
+    width: 30%;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    overflow: scroll;
+    /*border: 2px solid #ddd;*/
+    float: right;
+    }
+
+
+  .blockAboutFreeSpace{
+    height: 100px;
+    width: 80%;
+    margin: 10px;
+    margin:0 auto;
+    clear: left;
+
+    }
+
+  .blockAbout2{
+    height: 200px;
+    width: 100px;
+    margin: 10px;
+    /*background-color: black;*/
+    float: left;
+    margin:0 auto;
+
+    }
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,300);
+body {
+  background-color: #f0f0f0;
+  font-family: roboto;
+}
+
+.containerCard {
+  width: 35%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding-left: 10%;
+  /*padding: 0 20px 20px;*/
+  -moz-border-radius: 6px;
+  text-align: center;
+  float: left;
+}
+
+.avatar-flip {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+  box-shadow: 0 0 0 13px #f0f0f0;
+
+}
+.avatar-flip img {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.containerCard2{
+  margin: 20px auto;
+  width: 30%;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: #fff;
+  padding-left: 10px;
+  -moz-border-radius: 6px;
+  text-align: center;
+  float: left;
+}
+
+.avatar-flip2{
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+  box-shadow: 0 0 0 13px #f0f0f0;
+
+}
+
+.avatar-flip2 img {
+  position: relative;
+  left: 0;
+  top: 0;
+   height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+h4 {
+  font-size: 13px;
+  color: #00baff;
+  letter-spacing: 1px;
+  margin-bottom: 25px
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.boxDiv1{
+	margin: 0 auto;
+
+}

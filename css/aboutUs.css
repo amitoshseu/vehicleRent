@@ -1,0 +1,126 @@
+
+/*-------------------------------------------------
+ABOUT US DESIGN
+-------------------------------------------------*/
+
+  .blockAbout{
+    height: 200px;
+    width: 80%;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    /*border: 1px solid red;*/
+    margin:0 auto;
+
+    }
+
+  .blockAbout img{
+  float: left;
+  margin: 0 10px;
+  width:  400px; 
+  height: :200px; 
+    
+  }
+
+  .blockAboutFreeSpace{
+    height: 100px;
+    width: 80%;
+    margin: 10px;
+    margin:0 auto;
+
+    }
+
+    .blockAbout2{
+  height: 200px;
+    width: 100px;
+    margin: 10px;
+    float: left;
+    margin:0 auto;
+
+    }
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,300);
+body {
+  background-color: #f0f0f0;
+  font-family: roboto;
+}
+.containerCard {
+  width: 30%;
+  margin: 120px auto 120px;
+  background-color: #fff;
+  padding: 0 20px 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  text-align: center;
+  float: left
+}
+.containerCard:hover .avatar-flip {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+.containerCard:hover .avatar-flip img:first-child {
+  opacity: 0;
+}
+.containerCard:hover .avatar-flip img:last-child {
+  opacity: 1;
+}
+.avatar-flip {
+  border-radius: 100px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 13px #f0f0f0;
+  -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+  -moz-box-shadow: 0 0 0 13px #f0f0f0;
+}
+.avatar-flip img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 100px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+.avatar-flip img:first-child {
+  z-index: 1;
+}
+.avatar-flip img:last-child {
+  z-index: 0;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  opacity: 0;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+h4 {
+  font-size: 13px;
+  color: #00baff;
+  letter-spacing: 1px;
+  margin-bottom: 25px
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+

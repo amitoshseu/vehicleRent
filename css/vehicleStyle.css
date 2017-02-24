@@ -1,0 +1,99 @@
+.clear{clear:both;}/* clear float */
+
+/* Hover state */
+
+.content_top{
+	padding:15px 20px;
+	border:1px solid #EBE8E8;
+	border-radius:3px;
+}
+.heading{
+	float:left;
+	margin-right:10%;
+}
+.heading h3{
+	font-family: 'Monda', sans-serif;
+	font-size:22px;
+	color:#602D8D;
+	text-transform:uppercase;
+}
+
+
+/**** Grid 1_0f_4 ****/
+.grid_1_of_4{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+	box-shadow: 0px 0px 3px rgb(150, 150, 150);
+}
+
+.images_1_of_4 {
+	width: 27%;
+	padding:1.5%;
+	text-align:center;
+	position:relative; 
+}
+.images_1_of_4  img{
+	max-width:100%;
+	height: 200px;
+}
+
+.images_1_of_4  h2 {
+	color: #CC3636;
+	font-family: 'Monda', sans-serif;
+	font-size:0.9em;
+	font-weight : normal;
+}
+.images_1_of_4  p {
+	font-size:0.8125em;
+	padding:0.4em 0;
+	color: #333;	
+}
+
+.images_1_of_4  p span.price{
+	font-size:18px;
+	font-family: 'Monda', sans-serif;
+	color: #CC3636;
+	margin-left:15px;
+}
+.images_1_of_4 .button {
+  float: left;
+  line-height: 1.9em;
+  margin-top: 0.3em;
+  width: 100%;
+}
+.images_1_of_4 .button a{
+		padding:7px 20px;
+		font-size:0.8em;
+}
+.images_1_of_4 .button a{
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 15px;
+	text-transform: none;
+	color: #737370;
+	text-decoration: none!important;
+	background: url(../images/button-bg.png) repeat-x 0 0 #E8E8E8;
+	display: inline-block;
+	border-left: 1px solid #D4D4D4!important;
+	border-right: 1px solid #ADADAD!important;
+	border-top: 1px solid #E0E0E0!important;
+	border-bottom: 1px solid #9C9C9C!important;
+	cursor: pointer!important;
+	margin: 0 2px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+}
+.images_1_of_4 .button a:hover{
+     color:#70389C;
+     background: #E8E8E8;
+}
+.sectionVehi {
+    width: 98%;
+    padding: 15px;
+}

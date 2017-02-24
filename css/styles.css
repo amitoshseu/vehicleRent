@@ -1,0 +1,520 @@
+/*-------------------------------------------------
+GLOBALS CLASSES 
+-------------------------------------------------*/
+*{padding:0; margin:0;}
+h1{ 
+  font-size:18px; 
+  color:#d13f31; 
+  font-family: 'Oswald', sans-serif; 
+  font-weight:normal; 
+  /*text-transform:uppercase;*/
+}
+
+h2{ 
+  font-size:14px; 
+  color:#1f7872; 
+  font-family: 'Droid Serif', serif; 
+  font-weight:normal;
+}
+a{
+  text-decoration:none; 
+  color:#1f7872;
+}
+
+/*-------------------------------------------------
+SUCCESS AND ERROR
+-------------------------------------------------*/
+
+.success{font-size:18px; color:green}
+.error{font-size:18px; color:red}
+
+
+/*-------------------------------------------------
+MENU CLASSES
+-------------------------------------------------*/
+
+.menu-wrap{ 
+  overflow:hidden; 
+  background:#1a202c;
+}
+
+.menu{
+  margin:0 auto; 
+  width:80%; 
+  background:#d13f31; 
+  height:45px; 
+  margin-top:40px;
+}
+
+
+.menu ul li{
+  list-style:none; 
+  float:left; 
+  width:auto;
+}
+
+
+.menu ul li a, .dropbtn{ 
+  display:block; 
+  height:45px; /*Previous 85px*/
+  line-height:45px; 
+  padding-left:25px; 
+  padding-right:25px; 
+  font-size:18px; 
+  /*font-family: 'Oswald', sans-serif; */
+  font-family: 'Kalam', cursive;
+  color:#ffffff; 
+  border-right:#dd503f solid 1px; 
+  font-weight: bold;
+  /*text-transform:uppercase;*/
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #d13f31;
+    min-width: 160px;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 100;
+}
+
+.menu ul li a:hover, .dropdown:hover .dropbtn{
+ background:#e1ece7; 
+ color:#1a202c;
+}
+
+.menu ul li a.active{
+  background:#d13f31; 
+  color:white;
+}
+
+/*.menu ul li a.active{
+ background:#e1ece7; 
+ color:#1a202c;
+}*/
+
+
+/*-------------------------------------------------
+NAME AND LOGO PART
+-------------------------------------------------*/
+.header{
+  margin:0 auto; 
+  width:960px; 
+  height:120px;
+}
+
+.logo{
+  width:300px; 
+  float:left; 
+  line-height:120px;
+}
+
+.logo h1{ 
+  font-size:32px;
+  color:#d13f31; 
+  font-weight:bold;
+  font-family:  'Lucida Console', Monaco, monospace;
+}
+
+.logo h1 span{
+ color:#1a202c;
+ text-transform: uppercase;
+
+}
+
+.social{ 
+  float:right; 
+  margin-top:20px;
+
+}
+
+.loginBtn{
+
+    background-color: #d13f31;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Kalam', cursive;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------
+AUTOMATIC `HOW
+-------------------------------------------------*/
+/* Slideshow container */
+.slideshow-container {
+  width:  90%;
+  height:  400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*-------------------------------------------------
+GRID CAR IMAGES
+-------------------------------------------------*/
+ .blockCar{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+/*-------------------------------------------------
+BOOKING, LOGIN , SIGNUP TAB
+-------------------------------------------------*/
+.tabDiv {
+  width: 100%;
+  margin: 0 auto;
+}
+.wholeTab{
+  width: 700px;
+  margin-left: 50px;
+  position: relative;
+  background-color: #e5eeff;
+  float: left;
+ 
+/*This block of code add by me*/
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f48196;
+
+}
+
+/* Float the list items side by side */
+ul.tab li {
+  float: left;
+
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: white;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: white;
+    
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    height: auto; /*This line is add by me*/
+    padding: 40px;
+}
+
+/*-------------------------------------------------
+BOOKING DESING
+-------------------------------------------------*/
+.loginDiv{
+  width: 50%;
+  padding: 5%;
+  margin-left: 20%;
+  background-color: #e5eeff;
+  border-style: solid;
+  border-color: red;
+}
+.loginDiv h3 {
+  font-size: 30px;
+}
+.selectCar{
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    float: left;
+
+
+}
+
+.selectHire {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 30px;
+}
+
+
+
+
+.pickupTextField,.phoneField,.SignInEmail,.SignInPass{
+  width: 95%;
+  padding: 12px 20px;
+  margin: 16px 0;
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.dateSelect{
+  width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    float: left;
+}
+.timeSelect {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px  30px;
+
+}
+.fnameField{
+  width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+
+.lnameField{
+  width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 30px;
+}
+
+.submit1,.submit2,.submit3{
+    width: 95%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.submit1:hover {
+    background-color: #f48196;
+}
+
+/*-------------------------------------------------
+SIGNUP DESING
+-------------------------------------------------*/
+.RegNameField,.RegEnterPass{
+  width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    float: left;
+}
+ 
+
+.RegPhoneField,.RegConPass{
+  width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 30px;
+}
+
+
+
+.RegEmailField{
+  width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.hearaboutSelect {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0 0 30px;
+}
+.submit2,.submit3:hover {
+    background-color: #f48196;
+}
+
+/*-------------------------------------------------
+LOGIN IN 
+-------------------------------------------------*/]
+
+.submit3:hover {
+    background-color: #f48196;
+}
+
+/*-------------------------------------------------
+Welcome Message Block
+-------------------------------------------------*/
+.welcomeMsg{
+  width: auto;
+  height: 443px;
+  margin-left: 20px;
+  overflow: hidden;
+  padding: 70px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  color: black;
+}
+
