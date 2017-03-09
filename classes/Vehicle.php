@@ -106,7 +106,7 @@
 		$rate		 = mysqli_real_escape_string($this->db->link,$data['rate']);
 		$rateDay	 = mysqli_real_escape_string($this->db->link,$data['rateDay']);
 		$rateAirport = mysqli_real_escape_string($this->db->link,$data['rateAirport']);
-		$seat = mysqli_real_escape_string($this->db->link,$data['seat']);
+		$seat		 = mysqli_real_escape_string($this->db->link,$data['seat']);
 		$vehiCondition = mysqli_real_escape_string($this->db->link,$data['vehiCondition']);
 		$type		   = mysqli_real_escape_string($this->db->link,$data['type']);
 
