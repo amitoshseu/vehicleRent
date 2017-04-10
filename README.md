@@ -7,10 +7,11 @@
 ### Project Screenshoot
 
 ![alt tag](https://c1.staticflickr.com/3/2882/33134207573_b91e7bba1a_z.jpg)
-*Fig: Home Page*
-
+#### Home Page
+---
 ![alt tag](https://c1.staticflickr.com/3/2840/33789734022_1c94e7426e_z.jpg)
-*Fig: Booking Page*
-
+#### Booking Page
+---
 ![alt tag](https://c1.staticflickr.com/3/2823/33906462576_4c5727fd77_z.jpg)
-*Fig: Car Gallery*
+#### Car Gallery
+---
