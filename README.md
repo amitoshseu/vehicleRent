@@ -5,13 +5,12 @@
 
 ---
 ### Project Screenshoot
-*Fig: Home Page*
+
 ![alt tag](https://c1.staticflickr.com/3/2882/33134207573_b91e7bba1a_z.jpg)
+*Fig: Home Page*
 
-*Fig: Booking Page*
 ![alt tag](https://c1.staticflickr.com/3/2840/33789734022_1c94e7426e_z.jpg)
+*Fig: Booking Page*
 
-*Fig: Car Gallery*
 ![alt tag](https://c1.staticflickr.com/3/2823/33906462576_4c5727fd77_z.jpg)
-
-
+*Fig: Car Gallery*
