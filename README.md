@@ -4,7 +4,7 @@
 **Project Details:** This research is designed as to be used by Vehicle rental company specializing in renting cars to customers. This research deals with developing a web based system that will allow customer to view available vehicles, make a reservation and later on in the process has to do registration and  payment. Fundamental aim is to design a very user friendly interface, thus the users will feel very easy to work on it. Finally, the system should be well compacted especially for large, premium and small vehicle rental business and it provides complete functionality of listing and booking car.
 
 ## Project Screenshoot
----
+
 
 ![home](https://cloud.githubusercontent.com/assets/12609618/26022826/9501c3be-37d0-11e7-8a02-9451e09c7822.jpg)
 ### Fig 1: Home Page
