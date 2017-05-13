@@ -32,6 +32,7 @@
 <head>
 <meta content="text/html;"/>
 <title>Car Rent</title>
+<link rel="icon" type="image/png" href="titleCar.png" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
