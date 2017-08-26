@@ -25,7 +25,7 @@ a{
 SUCCESS AND ERROR
 -------------------------------------------------*/
 
-.success{font-size:18px; color:green}
+.success{font-size:18px; color:green;}
 .error{font-size:18px; color:red}
 
 

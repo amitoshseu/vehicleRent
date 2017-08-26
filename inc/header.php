@@ -9,7 +9,7 @@
       include_once "classes/".$class.".php";
 
     });
-
+ 
     $db   = new Database();
     $fm   = new Format();
     $vehi = new Vehicle();
@@ -17,7 +17,7 @@
     $res  = new Reserve();
     $mess = new Message();
     
- ?>
+ ?> 
 
 
 <?php
@@ -71,7 +71,7 @@
 
 
       <?php 
-          $login = Session::get("cuslogin");
+          $login = Session::get("cuslogin"); 
           if ($login == true) { ?>
           <li><a href="profile.php">Profile</a></li>
       <?php   } ?>

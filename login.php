@@ -12,7 +12,7 @@
         $custLogin = $cmr->customerLogin($_POST);
     }
 ?>
-
+ 
 	
 <div class="loginDiv" align="center">
 
@@ -22,6 +22,7 @@
     }
 
  ?>
+ 
   <form action="" method="post">
     <h3>Sign In</h3>
     <input type="text" name="email" placeholder="Email" class="SignInEmail">

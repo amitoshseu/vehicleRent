@@ -54,7 +54,7 @@
     <img src="images/shoeb.jpg" height="150" width="150">
     <img src="images/shoeb2.jpg" height="150" width="150">
 </div>
-  <h2>Obayed Ullah Khan</h2>
+  <h2>Obayed Ullah Khan Shoeb</h2>
   <h4>Frontend Developer</h4>
   <p>Email:ouks_cseseu@yahoo.com</p>
 
