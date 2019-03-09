@@ -37,10 +37,10 @@
 
 
 
-<h2 align="center">Developers Team</h2>
+<h2 align="center">Developer Team</h2>
 
 <div class="containerCard">
-  <div class="avatar-flip">
+  <div class="avatar-flip" align="center">
     <img src="images/amitosh.jpg" height="150" width="150">
     <img src="images/amitosh2.jpg" height="150" width="150">
   </div>
@@ -49,24 +49,4 @@
   <p>Email:amitosh.seu@gmail.com</p>
 </div>
 
-<div class="containerCard">
-  <div class="avatar-flip">
-    <img src="images/shoeb.jpg" height="150" width="150">
-    <img src="images/shoeb2.jpg" height="150" width="150">
-</div>
-  <h2>Obayed Ullah Khan</h2>
-  <h4>Frontend Developer</h4>
-  <p>Email:ouks_cseseu@yahoo.com</p>
-
-</div>
-
-<div class="containerCard">
-  <div class="avatar-flip">
-    <img src="images/tanim.jpg" height="150" width="150">
-    <img src="images/tanim2.jpg" height="150" width="150">
-  </div>
-  <h2>Faysal Ahmed</h2>
-   <h4>Frontend Developer</h4>
-  <p>Email: ftahamad@gmail.com</p>
-</div>
 <?php include 'inc/footer.php';?>
