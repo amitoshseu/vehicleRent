@@ -1,3 +1,4 @@
+<!-- added some comment  -->
 <?php include 'inc/header.php';?>
 <link href="css/vehicleStyle.css" rel="stylesheet" type="text/css" />
 	
